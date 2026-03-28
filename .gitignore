@@ -1,0 +1,14 @@
+# OS files
+.DS_Store
+
+# Python and Jupyter artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+.pytest_cache/
+
+# Local environments and caches
+.venv/
+.cache/
+notebooks/.cache/
