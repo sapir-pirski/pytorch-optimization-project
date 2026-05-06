@@ -147,7 +147,7 @@ fi
 if [ ! -f "${INSTALL_STAMP}" ] || [ ! -x "${JUPYTER_BIN}" ]; then
   echo "Installing Jupyter launcher dependencies..."
   "${PIP_BIN}" install --upgrade pip
-  "${PIP_BIN}" install jupyterlab==4.5.6 ipykernel==6.31.0
+  "${PIP_BIN}" install notebook==7.5.5 ipykernel==6.31.0
   touch "${INSTALL_STAMP}"
 fi
 
@@ -164,4 +164,4 @@ mkdir -p \
   "${JUPYTER_RUNTIME_DIR}" \
   "${JUPYTER_DATA_DIR}"
 
-exec "${JUPYTER_BIN}" lab --no-browser --ip=127.0.0.1 --port="${PORT}"
+exec "${JUPYTER_BIN}" notebook --no-browser --ip=127.0.0.1 --port="${PORT}"

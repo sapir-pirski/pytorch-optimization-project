@@ -1,0 +1,143 @@
+<svg width="1600" height="760" viewBox="0 0 1600 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1600" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFC"/>
+      <stop offset="0.55" stop-color="#EEF7F8"/>
+      <stop offset="1" stop-color="#F9F7F1"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="170" y1="90" x2="780" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102A43"/>
+      <stop offset="1" stop-color="#0B1F2A"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="860" y1="130" x2="1450" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8FAF5"/>
+      <stop offset="0.52" stop-color="#ECF5FF"/>
+      <stop offset="1" stop-color="#FFF4E5"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect x="16" y="16" width="1568" height="728" rx="40" fill="url(#paper)"/>
+
+  <g opacity="0.32">
+    <path d="M110 122H1490" stroke="#C9DDE4"/>
+    <path d="M110 242H1490" stroke="#C9DDE4"/>
+    <path d="M110 362H1490" stroke="#C9DDE4"/>
+    <path d="M110 482H1490" stroke="#C9DDE4"/>
+    <path d="M110 602H1490" stroke="#C9DDE4"/>
+    <path d="M210 74V686" stroke="#C9DDE4"/>
+    <path d="M410 74V686" stroke="#C9DDE4"/>
+    <path d="M610 74V686" stroke="#C9DDE4"/>
+    <path d="M810 74V686" stroke="#C9DDE4"/>
+    <path d="M1010 74V686" stroke="#C9DDE4"/>
+    <path d="M1210 74V686" stroke="#C9DDE4"/>
+    <path d="M1410 74V686" stroke="#C9DDE4"/>
+  </g>
+
+  <circle cx="1390" cy="132" r="170" fill="#14B8A6" fill-opacity="0.10"/>
+  <circle cx="1010" cy="650" r="220" fill="#38BDF8" fill-opacity="0.08"/>
+  <circle cx="360" cy="660" r="180" fill="#F59E0B" fill-opacity="0.08"/>
+
+  <g transform="translate(135 96)">
+    <rect x="0" y="0" width="702" height="568" rx="32" fill="#FFFFFF" fill-opacity="0.78" stroke="#D6E4EA" filter="url(#softShadow)"/>
+
+    <text x="58" y="74" fill="#0F766E" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="800" letter-spacing="3">
+      NOTEBOOK-FIRST OPTIMIZATION PROJECT
+    </text>
+    <text x="58" y="154" fill="url(#ink)" font-family="Inter, Arial, Helvetica, sans-serif" font-size="68" font-weight="800">
+      PyTorch Optimization
+    </text>
+    <text x="58" y="228" fill="url(#ink)" font-family="Inter, Arial, Helvetica, sans-serif" font-size="68" font-weight="800">
+      Project
+    </text>
+    <text x="60" y="292" fill="#486170" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="500">
+      SST-2 sentiment text, Bag-of-Words features,
+    </text>
+    <text x="60" y="332" fill="#486170" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="500">
+      stable BCE, SGD sweeps, L1 sparsity,
+    </text>
+    <text x="60" y="372" fill="#486170" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="500">
+      and optimizer trajectories.
+    </text>
+
+    <g transform="translate(58 430)">
+      <rect x="0" y="0" width="108" height="48" rx="14" fill="#ECFDF5" stroke="#99F6E4"/>
+      <text x="27" y="31" fill="#115E59" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="800">SST-2</text>
+
+      <path d="M122 24H158" stroke="#14B8A6" stroke-width="3" stroke-linecap="round"/>
+
+      <rect x="172" y="0" width="104" height="48" rx="14" fill="#EFF6FF" stroke="#BAE6FD"/>
+      <text x="205" y="31" fill="#075985" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="800">BoW</text>
+
+      <path d="M290 24H326" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+
+      <rect x="340" y="0" width="168" height="48" rx="14" fill="#FFF7ED" stroke="#FED7AA"/>
+      <text x="368" y="31" fill="#9A3412" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="800">LogReg + BCE</text>
+
+      <path d="M522 24H558" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+
+      <rect x="572" y="0" width="102" height="48" rx="14" fill="#F0FDFA" stroke="#99F6E4"/>
+      <text x="600" y="31" fill="#0F766E" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="800">SGD</text>
+    </g>
+  </g>
+
+  <g transform="translate(882 96)">
+    <rect x="0" y="0" width="585" height="568" rx="32" fill="url(#surface)" stroke="#D4E4EA" filter="url(#softShadow)"/>
+
+    <g transform="translate(58 52)">
+      <text x="0" y="0" fill="#0F172A" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28" font-weight="800" dominant-baseline="hanging">
+        Loss landscape and training signals
+      </text>
+      <text x="0" y="46" fill="#587080" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="600">
+        one notebook, visible optimization behavior
+      </text>
+    </g>
+
+    <g transform="translate(72 142)">
+      <rect x="0" y="0" width="438" height="272" rx="28" fill="#FFFFFF" fill-opacity="0.86" stroke="#D6E4EA"/>
+      <ellipse cx="228" cy="140" rx="170" ry="94" stroke="#0F766E" stroke-opacity="0.18" stroke-width="2"/>
+      <ellipse cx="228" cy="140" rx="130" ry="70" stroke="#0F766E" stroke-opacity="0.24" stroke-width="2"/>
+      <ellipse cx="228" cy="140" rx="92" ry="48" stroke="#0F766E" stroke-opacity="0.32" stroke-width="2"/>
+      <ellipse cx="228" cy="140" rx="58" ry="30" stroke="#0F766E" stroke-opacity="0.42" stroke-width="2"/>
+
+      <path d="M64 210C104 162 136 184 174 148C214 110 252 172 292 118C326 74 354 84 388 56" stroke="url(#teal)" stroke-width="7" stroke-linecap="round"/>
+      <path d="M64 210C104 162 136 184 174 148C214 110 252 172 292 118C326 74 354 84 388 56" stroke="#0F172A" stroke-opacity="0.12" stroke-width="15" stroke-linecap="round"/>
+      <circle cx="64" cy="210" r="11" fill="#0F172A"/>
+      <circle cx="174" cy="148" r="9" fill="#38BDF8"/>
+      <circle cx="292" cy="118" r="9" fill="#14B8A6"/>
+      <circle cx="388" cy="56" r="12" fill="#F97316"/>
+
+      <text x="30" y="244" fill="#64748B" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700">
+        GD / Momentum / AdaGrad / Adam
+      </text>
+    </g>
+
+    <g transform="translate(72 444)">
+      <rect x="0" y="0" width="120" height="72" rx="18" fill="#FFFFFF" fill-opacity="0.88" stroke="#D6E4EA"/>
+      <rect x="20" y="18" width="20" height="20" rx="5" fill="#14B8A6"/>
+      <rect x="45" y="18" width="20" height="20" rx="5" fill="#38BDF8"/>
+      <rect x="70" y="18" width="20" height="20" rx="5" fill="#A3E635"/>
+      <rect x="20" y="42" width="20" height="20" rx="5" fill="#F59E0B"/>
+      <rect x="45" y="42" width="20" height="20" rx="5" fill="#22C55E"/>
+      <rect x="70" y="42" width="20" height="20" rx="5" fill="#FB7185"/>
+
+      <rect x="154" y="0" width="120" height="72" rx="18" fill="#FFFFFF" fill-opacity="0.88" stroke="#D6E4EA"/>
+      <path d="M178 52C194 22 214 18 250 14" stroke="url(#teal)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M178 46L198 32L218 44L250 20" stroke="#334155" stroke-width="2.5" stroke-linecap="round"/>
+
+      <rect x="308" y="0" width="130" height="72" rx="18" fill="#FFFFFF" fill-opacity="0.88" stroke="#D6E4EA"/>
+      <path d="M332 50C356 28 384 34 414 20" stroke="url(#orange)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M332 46L354 34L376 44L414 22" stroke="#334155" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

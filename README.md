@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="assets/optimization-lab-hero.svg" alt="PyTorch Optimization Lab workflow" width="100%" />
+  <img src="assets/optimization-project-hero.svg" alt="PyTorch Optimization Project workflow" width="100%" />
 
-  <h1>PyTorch Optimization Lab</h1>
-  <p><strong>A notebook-first lab for text classification, SGD dynamics, L1 sparsity, and optimizer geometry.</strong></p>
+  <h1>PyTorch Optimization Project</h1>
+  <p><strong>A notebook-first project for text classification, SGD dynamics, L1 sparsity, and optimizer geometry.</strong></p>
 
   <p>
     <img alt="Python" src="https://img.shields.io/badge/Python-3.10--3.12-0f172a?style=for-the-badge&logo=python&logoColor=ffd54f">
@@ -15,7 +15,7 @@
 
 ## What This Is
 
-This repository packages [`notebooks/LLM_Architectures.ipynb`](notebooks/LLM_Architectures.ipynb) as a reproducible optimization lab. It starts with SST-2 sentiment text, builds a Bag-of-Words logistic regression model in PyTorch, then studies how learning rate, batch size, L1 regularization, and optimizer choice change the training behavior.
+This repository packages [`notebooks/LLM_Architectures.ipynb`](notebooks/LLM_Architectures.ipynb) as a reproducible optimization project. It starts with SST-2 sentiment text, builds a Bag-of-Words logistic regression model in PyTorch, then studies how learning rate, batch size, L1 regularization, and optimizer choice change the training behavior.
 
 The project is intentionally transparent: the notebook implements the core model, loss, training loop, and optimizer experiments directly instead of hiding them behind high-level training utilities.
 
@@ -31,7 +31,7 @@ These images are exported from the last successful end-to-end notebook run.
 | --- | --- |
 | <img src="assets/readme-camel-trajectories.png" alt="Six-hump camel optimizer trajectories" width="100%"> | <img src="assets/readme-proximal-l1.png" alt="Proximal L1 and L2 toy dynamics" width="100%"> |
 
-## Lab Flow
+## Workflow
 
 ```text
 SST-2 text
@@ -127,9 +127,9 @@ I used these sources to keep the README aligned with common PyTorch/Jupyter proj
 ## Repo Layout
 
 ```text
-pytorch-optimization-lab/
+pytorch-optimization-project/
 ├── assets/
-│   ├── optimization-lab-hero.svg
+│   ├── optimization-project-hero.svg
 │   ├── readme-camel-trajectories.png
 │   ├── readme-l1-regularization.png
 │   ├── readme-learning-rate-sweep.png
